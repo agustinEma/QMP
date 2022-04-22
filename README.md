@@ -4,9 +4,8 @@
 
 </br>
 
-Diagrama de clases
+#### Diagrama de clases
 
-</br>
 
 ![diagrama](diagrama.PNG)
 
