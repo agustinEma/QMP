@@ -2,12 +2,14 @@ public class Prenda {
     TipoDePrenda tipoDePrenda;
     Categoria categoria;
     Material material;
+    Trama trama;
     Color colorPrimario;
     Color colorSecuandario;
 
 public Prenda(TipoDePrenda _tipoDePrenda,
     Categoria _categoria,
     Material _material,
+    Trama _trama,
     Color _colorPrimario,
     Color _colorSecundario){
 
@@ -34,6 +36,7 @@ public Prenda(TipoDePrenda _tipoDePrenda,
     this.material=_material;
     this.colorPrimario=_colorPrimario;
     this.colorSecuandario=_colorSecundario;
+    this.trama = _trama;
     }
 
     }
