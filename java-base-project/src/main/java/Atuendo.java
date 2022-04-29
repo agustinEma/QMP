@@ -1,7 +1,3 @@
-package autendo;
-
-import prenda.Prenda;
-
 import java.util.List;
 
 public class Atuendo {
