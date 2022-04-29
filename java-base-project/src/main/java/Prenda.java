@@ -16,7 +16,8 @@ public Prenda(TipoDePrenda _tipoDePrenda,
     if(_tipoDePrenda==null
         || _categoria==null
         || _material==null
-        || _colorPrimario==null){
+        || _colorPrimario==null
+        || _trama==null){
     throw new PrendaException("no se cargo la prenda correctamente");
     }
 

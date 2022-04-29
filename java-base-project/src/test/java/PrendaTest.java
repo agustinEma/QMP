@@ -54,6 +54,7 @@ public class PrendaTest {
             tipoDePrenda,
             categoria,
             material,
+            Trama.LISA,
             colorPrimario,
             colorSecundario);
     }
