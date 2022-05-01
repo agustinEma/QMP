@@ -1,11 +1,23 @@
 public class Color {
-double rojo;
-double verde;
-double azul;
+  double rojo;
+  double verde;
+  double azul;
 
-public Color(double _rojo, double _verde, double _azul){
-  this.rojo = _rojo;
-  this.verde = _verde;
-  this.azul = _azul;
-}
+  public Color(double rojo, double verde, double azul) {
+    this.rojo = rojo;
+    this.verde = verde;
+    this.azul = azul;
+  }
+
+  public double getRojo() {
+    return  this.rojo;
+  }
+
+  public double getVerde() {
+    return  this.verde;
+  }
+
+  public double getAzul() {
+    return  this.azul;
+  }
 }

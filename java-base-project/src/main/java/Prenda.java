@@ -1,43 +1,44 @@
 public class Prenda {
-    TipoDePrenda tipoDePrenda;
-    Categoria categoria;
-    Material material;
-    Trama trama;
-    Color colorPrimario;
-    Color colorSecuandario;
 
-public Prenda(TipoDePrenda _tipoDePrenda,
-    Categoria _categoria,
-    Material _material,
-    Trama _trama,
-    Color _colorPrimario,
-    Color _colorSecundario){
+  TipoDePrenda tipoDePrenda;
+  Material material;
+  Trama trama;
+  Color colorPrimario;
+  Color colorSecundario;
 
-    if(_tipoDePrenda==null
-        || _categoria==null
-        || _material==null
-        || _colorPrimario==null
-        || _trama==null){
-    throw new PrendaException("no se cargo la prenda correctamente");
-    }
+  public Prenda(TipoDePrenda tipoDePrenda,
+                Material material,
+                Trama trama,
+                Color colorPrimario,
+                Color colorSecundario) {
+    this.tipoDePrenda = tipoDePrenda;
+    this.material = material;
+    this.trama = trama;
+    this.colorPrimario = colorPrimario;
+    this.colorSecundario = colorSecundario;
+  }
 
-    if((_tipoDePrenda == TipoDePrenda.ZAPATOS
-        && _categoria != Categoria.CALZADO)
-    ||(_tipoDePrenda == TipoDePrenda.PATALON
-        && _categoria != Categoria.PARTE_INFERIOR)
-    ||(_tipoDePrenda == TipoDePrenda.CAMISA_MANGA_LARGA
-        || _tipoDePrenda == TipoDePrenda.CAMISA_MANGA_CORTA
-        && _categoria != Categoria.PARTE_SUPERIOR)){
-        throw new PrendaException("el tipo de prenda no pertenese a la categoria");
-    }
+  public Categoria getCategoria() {
+    return tipoDePrenda.getCategoria();
+  }
 
+  public TipoDePrenda getTipoDePrenda() {
+    return this.tipoDePrenda;
+  }
 
-    this.tipoDePrenda=_tipoDePrenda;
-    this.categoria=_categoria;
-    this.material=_material;
-    this.colorPrimario=_colorPrimario;
-    this.colorSecuandario=_colorSecundario;
-    this.trama = _trama;
-    }
+  public Material getMaterial() {
+    return this.material;
+  }
 
-    }
+  public Trama getTrama() {
+    return this.trama;
+  }
+
+  public Color getColorPrimario() {
+    return this.colorPrimario;
+  }
+
+  public Color getColorSecundario() {
+    return this.colorSecundario;
+  }
+}

@@ -1,4 +1,10 @@
-#Fri Apr 08 01:25:29 ART 2022
+#Sun May 01 16:59:59 ART 2022
 module-resource*?\:checkstyle-suppressions.xml=9ACECB46B552E00E098EF390586E256CC2905E60
+C\:\\Users\\ayanez\\Desktop\\dds\\QMP\\java-base-project\\src\\main\\java\\Trama.java=1651204927103
+C\:\\Users\\ayanez\\Desktop\\dds\\QMP\\java-base-project\\src\\main\\java\\TipoDePrenda.java=1651433403222
+C\:\\Users\\ayanez\\Desktop\\dds\\QMP\\java-base-project\\src\\main\\java\\Categoria.java=1651204565905
+C\:\\Users\\ayanez\\Desktop\\dds\\QMP\\java-base-project\\src\\main\\java\\Material.java=1651204565913
+C\:\\Users\\ayanez\\Desktop\\dds\\QMP\\java-base-project\\src\\main\\java\\PrendaException.java=1651422044749
+C\:\\Users\\ayanez\\Desktop\\dds\\QMP\\java-base-project\\src\\main\\java\\Atuendo.java=1651422445651
+configuration*?=3EAA7F967E2016F464EA5FE584AE55B4EFA5F207
 module-resource*?\:checkstyle-xpath-suppressions.xml=CB848AAC919BC0B0ACD02A45DBE91C28F088AA9A
-configuration*?=B24FC99138EAD4B31F7275B1AD7F47300B5601D1
